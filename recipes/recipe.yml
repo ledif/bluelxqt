@@ -21,6 +21,8 @@ modules:
     install:
       - micro
       - starship
+      # why isn't this included by default?
+      - xorg-x11-server-Xorg
     remove:
       # example: removing firefox (in favor of the flatpak)
       # "firefox" is the main package, "firefox-langpacks" is a dependency
